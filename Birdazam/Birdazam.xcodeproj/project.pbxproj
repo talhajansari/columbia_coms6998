@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942FEAE118EE15D7005804E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FEAE018EE15D7005804E9 /* Foundation.framework */; };
+		942FEAE318EE15D7005804E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FEAE218EE15D7005804E9 /* CoreGraphics.framework */; };
+		942FEAE518EE15D7005804E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FEAE418EE15D7005804E9 /* UIKit.framework */; };
+		942FEAEB18EE15D7005804E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 942FEAE918EE15D7005804E9 /* InfoPlist.strings */; };
+		942FEAED18EE15D7005804E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEAEC18EE15D7005804E9 /* main.m */; };
+		942FEAF118EE15D7005804E9 /* IMGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEAF018EE15D7005804E9 /* IMGAppDelegate.m */; };
+		942FEAF418EE15D7005804E9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942FEAF218EE15D7005804E9 /* Main_iPhone.storyboard */; };
+		942FEAF718EE15D7005804E9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942FEAF518EE15D7005804E9 /* Main_iPad.storyboard */; };
+		942FEAFA18EE15D7005804E9 /* IMGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEAF918EE15D7005804E9 /* IMGViewController.m */; };
+		942FEAFC18EE15D7005804E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942FEAFB18EE15D7005804E9 /* Images.xcassets */; };
+		942FEB0318EE15D7005804E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FEB0218EE15D7005804E9 /* XCTest.framework */; };
+		942FEB0418EE15D7005804E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FEAE018EE15D7005804E9 /* Foundation.framework */; };
+		942FEB0518EE15D7005804E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 942FEAE418EE15D7005804E9 /* UIKit.framework */; };
+		942FEB0D18EE15D7005804E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 942FEB0B18EE15D7005804E9 /* InfoPlist.strings */; };
+		942FEB0F18EE15D7005804E9 /* BirdazamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 942FEB0E18EE15D7005804E9 /* BirdazamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942FEB0618EE15D7005804E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942FEAD518EE15D7005804E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942FEADC18EE15D7005804E9;
+			remoteInfo = Birdazam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942FEADD18EE15D7005804E9 /* Birdazam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birdazam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942FEAE018EE15D7005804E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		942FEAE218EE15D7005804E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		942FEAE418EE15D7005804E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		942FEAE818EE15D7005804E9 /* Birdazam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Birdazam-Info.plist"; sourceTree = "<group>"; };
+		942FEAEA18EE15D7005804E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		942FEAEC18EE15D7005804E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		942FEAEE18EE15D7005804E9 /* Birdazam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Birdazam-Prefix.pch"; sourceTree = "<group>"; };
+		942FEAEF18EE15D7005804E9 /* IMGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGAppDelegate.h; sourceTree = "<group>"; };
+		942FEAF018EE15D7005804E9 /* IMGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGAppDelegate.m; sourceTree = "<group>"; };
+		942FEAF318EE15D7005804E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		942FEAF618EE15D7005804E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		942FEAF818EE15D7005804E9 /* IMGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMGViewController.h; sourceTree = "<group>"; };
+		942FEAF918EE15D7005804E9 /* IMGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMGViewController.m; sourceTree = "<group>"; };
+		942FEAFB18EE15D7005804E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		942FEB0118EE15D7005804E9 /* BirdazamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdazamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		942FEB0218EE15D7005804E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		942FEB0A18EE15D7005804E9 /* BirdazamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BirdazamTests-Info.plist"; sourceTree = "<group>"; };
+		942FEB0C18EE15D7005804E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		942FEB0E18EE15D7005804E9 /* BirdazamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirdazamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942FEADA18EE15D7005804E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FEAE318EE15D7005804E9 /* CoreGraphics.framework in Frameworks */,
+				942FEAE518EE15D7005804E9 /* UIKit.framework in Frameworks */,
+				942FEAE118EE15D7005804E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942FEAFE18EE15D7005804E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FEB0318EE15D7005804E9 /* XCTest.framework in Frameworks */,
+				942FEB0518EE15D7005804E9 /* UIKit.framework in Frameworks */,
+				942FEB0418EE15D7005804E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942FEAD418EE15D7005804E9 = {
+			isa = PBXGroup;
+			children = (
+				942FEAE618EE15D7005804E9 /* Birdazam */,
+				942FEB0818EE15D7005804E9 /* BirdazamTests */,
+				942FEADF18EE15D7005804E9 /* Frameworks */,
+				942FEADE18EE15D7005804E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942FEADE18EE15D7005804E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942FEADD18EE15D7005804E9 /* Birdazam.app */,
+				942FEB0118EE15D7005804E9 /* BirdazamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942FEADF18EE15D7005804E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				942FEAE018EE15D7005804E9 /* Foundation.framework */,
+				942FEAE218EE15D7005804E9 /* CoreGraphics.framework */,
+				942FEAE418EE15D7005804E9 /* UIKit.framework */,
+				942FEB0218EE15D7005804E9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		942FEAE618EE15D7005804E9 /* Birdazam */ = {
+			isa = PBXGroup;
+			children = (
+				942FEAEF18EE15D7005804E9 /* IMGAppDelegate.h */,
+				942FEAF018EE15D7005804E9 /* IMGAppDelegate.m */,
+				942FEAF218EE15D7005804E9 /* Main_iPhone.storyboard */,
+				942FEAF518EE15D7005804E9 /* Main_iPad.storyboard */,
+				942FEAF818EE15D7005804E9 /* IMGViewController.h */,
+				942FEAF918EE15D7005804E9 /* IMGViewController.m */,
+				942FEAFB18EE15D7005804E9 /* Images.xcassets */,
+				942FEAE718EE15D7005804E9 /* Supporting Files */,
+			);
+			path = Birdazam;
+			sourceTree = "<group>";
+		};
+		942FEAE718EE15D7005804E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				942FEAE818EE15D7005804E9 /* Birdazam-Info.plist */,
+				942FEAE918EE15D7005804E9 /* InfoPlist.strings */,
+				942FEAEC18EE15D7005804E9 /* main.m */,
+				942FEAEE18EE15D7005804E9 /* Birdazam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		942FEB0818EE15D7005804E9 /* BirdazamTests */ = {
+			isa = PBXGroup;
+			children = (
+				942FEB0E18EE15D7005804E9 /* BirdazamTests.m */,
+				942FEB0918EE15D7005804E9 /* Supporting Files */,
+			);
+			path = BirdazamTests;
+			sourceTree = "<group>";
+		};
+		942FEB0918EE15D7005804E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				942FEB0A18EE15D7005804E9 /* BirdazamTests-Info.plist */,
+				942FEB0B18EE15D7005804E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942FEADC18EE15D7005804E9 /* Birdazam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942FEB1218EE15D7005804E9 /* Build configuration list for PBXNativeTarget "Birdazam" */;
+			buildPhases = (
+				942FEAD918EE15D7005804E9 /* Sources */,
+				942FEADA18EE15D7005804E9 /* Frameworks */,
+				942FEADB18EE15D7005804E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Birdazam;
+			productName = Birdazam;
+			productReference = 942FEADD18EE15D7005804E9 /* Birdazam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		942FEB0018EE15D7005804E9 /* BirdazamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942FEB1518EE15D7005804E9 /* Build configuration list for PBXNativeTarget "BirdazamTests" */;
+			buildPhases = (
+				942FEAFD18EE15D7005804E9 /* Sources */,
+				942FEAFE18EE15D7005804E9 /* Frameworks */,
+				942FEAFF18EE15D7005804E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942FEB0718EE15D7005804E9 /* PBXTargetDependency */,
+			);
+			name = BirdazamTests;
+			productName = BirdazamTests;
+			productReference = 942FEB0118EE15D7005804E9 /* BirdazamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942FEAD518EE15D7005804E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IMG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.tja2117;
+				TargetAttributes = {
+					942FEADC18EE15D7005804E9 = {
+						DevelopmentTeam = 84TB9682NH;
+					};
+					942FEB0018EE15D7005804E9 = {
+						TestTargetID = 942FEADC18EE15D7005804E9;
+					};
+				};
+			};
+			buildConfigurationList = 942FEAD818EE15D7005804E9 /* Build configuration list for PBXProject "Birdazam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942FEAD418EE15D7005804E9;
+			productRefGroup = 942FEADE18EE15D7005804E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942FEADC18EE15D7005804E9 /* Birdazam */,
+				942FEB0018EE15D7005804E9 /* BirdazamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942FEADB18EE15D7005804E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FEAF718EE15D7005804E9 /* Main_iPad.storyboard in Resources */,
+				942FEAFC18EE15D7005804E9 /* Images.xcassets in Resources */,
+				942FEAF418EE15D7005804E9 /* Main_iPhone.storyboard in Resources */,
+				942FEAEB18EE15D7005804E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942FEAFF18EE15D7005804E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FEB0D18EE15D7005804E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942FEAD918EE15D7005804E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FEAF118EE15D7005804E9 /* IMGAppDelegate.m in Sources */,
+				942FEAFA18EE15D7005804E9 /* IMGViewController.m in Sources */,
+				942FEAED18EE15D7005804E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942FEAFD18EE15D7005804E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942FEB0F18EE15D7005804E9 /* BirdazamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942FEB0718EE15D7005804E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942FEADC18EE15D7005804E9 /* Birdazam */;
+			targetProxy = 942FEB0618EE15D7005804E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		942FEAE918EE15D7005804E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942FEAEA18EE15D7005804E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		942FEAF218EE15D7005804E9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942FEAF318EE15D7005804E9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		942FEAF518EE15D7005804E9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942FEAF618EE15D7005804E9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		942FEB0B18EE15D7005804E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942FEB0C18EE15D7005804E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942FEB1018EE15D7005804E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942FEB1118EE15D7005804E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942FEB1318EE15D7005804E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birdazam/Birdazam-Prefix.pch";
+				INFOPLIST_FILE = "Birdazam/Birdazam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		942FEB1418EE15D7005804E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birdazam/Birdazam-Prefix.pch";
+				INFOPLIST_FILE = "Birdazam/Birdazam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		942FEB1618EE15D7005804E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Birdazam.app/Birdazam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birdazam/Birdazam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BirdazamTests/BirdazamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		942FEB1718EE15D7005804E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Birdazam.app/Birdazam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Birdazam/Birdazam-Prefix.pch";
+				INFOPLIST_FILE = "BirdazamTests/BirdazamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942FEAD818EE15D7005804E9 /* Build configuration list for PBXProject "Birdazam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942FEB1018EE15D7005804E9 /* Debug */,
+				942FEB1118EE15D7005804E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942FEB1218EE15D7005804E9 /* Build configuration list for PBXNativeTarget "Birdazam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942FEB1318EE15D7005804E9 /* Debug */,
+				942FEB1418EE15D7005804E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942FEB1518EE15D7005804E9 /* Build configuration list for PBXNativeTarget "BirdazamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942FEB1618EE15D7005804E9 /* Debug */,
+				942FEB1718EE15D7005804E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942FEAD518EE15D7005804E9 /* Project object */;
+}
