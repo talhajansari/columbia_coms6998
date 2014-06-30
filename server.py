@@ -21,10 +21,13 @@ def hello_world():
 @app.route('/', methods=['POST'])
 def classify():
     #return jsonify({'answer_post':'hello_world'})
-    print (request.data)
-    user = request.data
-    # user ='user'
-    return jsonify({'answer_post':str(user)})
+    #print request.files['file']
+    user = request.files['userfile']
+    user.save('test.wav')
+    answer = ['Taraba Major','Great antshrike','Fixy Mixy','Chicken']
+    #return jsonify({'0':answer[0], '1':answer[1]})
+    answer = {'1':'Taraba Major','2':'Great antshrike','3':'Fixy Mixy','4':'Chicken'}
+    return jsonify(answer)
 
 @app.route('/old',methods=['POST'])
 def diagnose():
